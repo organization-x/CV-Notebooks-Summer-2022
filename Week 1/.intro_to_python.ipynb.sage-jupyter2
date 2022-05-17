@@ -1,55 +1,55 @@
-{"backend_state":"ready","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"interpreter":{"hash":"4dc00988b6380d78f37925bb5cfd9f97a198c15e33ccaa3d0f00c8d36181cbab"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.10.0"},"orig_nbformat":4},"type":"settings"}
-{"cell_type":"code","exec_count":1,"id":"7f249b","input":"a = 1\nb = 2\nc = 3\na","output":{"0":{"data":{"text/plain":"1"},"execution_count":1,"metadata":{},"output_type":"execute_result"}},"pos":4,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":13,"id":"d2f655","input":"my_list = [1, 2, 3, 4, 5]","pos":20,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":14,"id":"07ce0d","input":"my_list[2]","output":{"0":{"data":{"text/plain":"3"},"execution_count":14,"metadata":{},"output_type":"execute_result"}},"pos":22,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":16,"id":"ac4e61","input":"my_tup = (\"a\", \"b\", \"c\", \"d\")","pos":25,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":17,"id":"5e9ec8","input":"my_tup[2]","output":{"0":{"data":{"text/plain":"'c'"},"execution_count":17,"metadata":{},"output_type":"execute_result"}},"pos":27,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":18,"id":"471b01","input":"my_dictionary = {\n    \"Name\": \"Cameron\",\n    \"Hobbies\": [\"Running\", \"Teaching\", \"Chess\"],\n    \"Age\": 23\n}","pos":29,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":19,"id":"edf6cc","input":"my_dictionary[\"Name\"]","output":{"0":{"data":{"text/plain":"'Cameron'"},"execution_count":19,"metadata":{},"output_type":"execute_result"}},"pos":31,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":21,"id":"b2f279","input":"for number in my_list:\n  print(number)","output":{"0":{"name":"stdout","output_type":"stream","text":"1\n2\n3\n4\n5\n"}},"pos":41,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":24,"id":"bd10f8","input":"for i in range(5):\n    print('i = ', i)","output":{"0":{"name":"stdout","output_type":"stream","text":"i =  0\ni =  1\ni =  2\ni =  3\ni =  4\n"}},"pos":43,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":25,"id":"0b3b41","input":"a = 1\nb = 2\nif a > b:\n    print(\"a is less than b\")\nelse:\n    print(\"b is less than a\")","output":{"0":{"name":"stdout","output_type":"stream","text":"b is less than a\n"}},"pos":47,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":27,"id":"5058ea","input":"a = 1\nb = 1\nif a > b:\n    print(\"a is less than b\")\nelif a == b:\n    print(\"a equals b\")\nelse:\n    print(\"b is less than a\")","output":{"0":{"name":"stdout","output_type":"stream","text":"a equals b\n"}},"pos":49,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":4,"id":"f7d52e","input":"f = b * c\nf","output":{"0":{"data":{"text/plain":"6"},"execution_count":4,"metadata":{},"output_type":"execute_result"}},"pos":8,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":5,"id":"597e4c","input":"g = a / b\ng","output":{"0":{"data":{"text/plain":"0.5"},"execution_count":5,"metadata":{},"output_type":"execute_result"}},"pos":9,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":6,"id":"94f4d9","input":"d = a + b\nd","output":{"0":{"data":{"text/plain":"3"},"execution_count":6,"metadata":{},"output_type":"execute_result"}},"pos":6,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":7,"id":"2feb4f","input":"e = c - a\ne","output":{"0":{"data":{"text/plain":"2"},"execution_count":7,"metadata":{},"output_type":"execute_result"}},"pos":7,"state":"done","type":"cell"}
-{"cell_type":"code","id":"623175","input":"","pos":14,"state":"done","type":"cell"}
-{"cell_type":"code","id":"90baff","input":"","pos":38,"state":"done","type":"cell"}
-{"cell_type":"code","id":"950692","input":"","pos":36,"state":"done","type":"cell"}
-{"cell_type":"code","id":"a85a34","input":"","pos":12,"state":"done","type":"cell"}
-{"cell_type":"code","id":"a96cce","input":"","pos":34,"state":"done","type":"cell"}
-{"cell_type":"code","id":"dbf05b","input":"a = 1\nb = 2\nif a > b:\n    print(\"a is less than b\")","pos":45,"state":"done","type":"cell"}
-{"cell_type":"code","id":"f1e2f9","input":"","pos":50,"state":"done","type":"cell"}
-{"cell_type":"code","id":"f24073","input":"","pos":16,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"00514d","input":"First up, lists. you can create a list with the following code.","pos":19,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"1ab16d","input":"## Variables","pos":2,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"26a2ab","input":"Now for if statements. The if-elif-else statement is used to conditionally execute a statement or a block of statements. Conditions can be true or false, execute one thing when the condition is true, something else when the condition is false.","pos":44,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"2aa98b","input":"We will learn more about for loops in the next lesson. For now, we will use them to go through a list and print out each element.","pos":40,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"2e53ff","input":"Create a few string variables here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":11,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"370b34","input":"Next, we will create a tuple. A tuple works similarly to a list but you can't edit values stored in a tuple once it has been created.","pos":24,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"38dc01","input":"Finally, we have dictionaries.","pos":28,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"3a27b8","input":"### Lists, Dictionaries, and Tuples","pos":17,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"3d4553","input":"Below, create a list of your favorite colors. Then figure out how to add a new element to the end of the list. Finally change a value in the list to something new.","pos":33,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"43d358","input":"To access a specific item from the list, you would do the following.","pos":21,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"4a3a00","input":"Lists work similarly to the variables we created above but store multiple values. We'll cover the three types metioned above then ask the students to try and create their own versions of them.","pos":18,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"4be682","input":"### For loops and if statements ","pos":39,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"59a396","input":"Next, we will look at how to make a list run a specific number of times.","pos":42,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"5edac4","input":"Create a few string boolean here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":15,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6aece2","input":"The goal of this notebook is to provide students with knowledge of the fundamentals of python. We will take a more interactive approach than most class room settings and ask the students to do some research on their own then bring their learnings back here to share with the class. ","pos":1,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6b285a","input":"There are tons of different types of variables we can make. For this next section, we will ask the students to go out and figure out how to create the following types of variable: strings, floats and booleans. Once you have created these variables, try the same operations we used above and see what they do.","pos":10,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6ceeb2","input":"Additionally, we can use elif statements to add additional conditions to the structure.","pos":48,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"7820fa","input":"The first element in the list is at index 0, then the second element is at index 1 and so on.","pos":23,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"8c1796","input":"Variables work by assigning a value to a specific word or string of characters. It can be done using the \"=\" sign. This assigns the string of characters on the left to be equal to whatever is on the right. We'll go ahead and try assigning a few variables in the next block.","pos":3,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"9b6867","input":"Below, create a dictionary of your favorite dogs. Then figure out how to add a new value to the dictionary. Finally, figure out how to change a value in the dictionary.","pos":37,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"aad8f0","input":"We can also perform basic algebra to these variables and save the output to a new variable","pos":5,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"be992d","input":"Create a few float variables here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":13,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c3ccc3","input":"Now its your turn. We will have students create their own versions of these 3 data types with special challenges for each.","pos":32,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"d44ab0","input":"# Python Basics","pos":0,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"d75b30","input":"You can access the elements the same way as a list","pos":26,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"dec972","input":"Below, create a tuple of your favorite dogs. Then figure out how to print out just the first letter of an element.","pos":35,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"eccdb6","input":"We can add else statements to the above. An else statement is what will be run if the original statement is false.","pos":46,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"f21ce6","input":"To access the values stored in a dictionary, you have to use the name of the \"key\" in the square brackets","pos":30,"state":"done","type":"cell"}
-{"id":"5b0b86","input":"","pos":51,"type":"cell"}
-{"id":0,"time":1652819187087,"type":"user"}
-{"last_load":1652819187232,"type":"file"}
+{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"interpreter":{"hash":"4dc00988b6380d78f37925bb5cfd9f97a198c15e33ccaa3d0f00c8d36181cbab"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.10.0"},"orig_nbformat":4},"trust":false,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"5b0b86","input":"","pos":51,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"623175","input":"","pos":14,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"90baff","input":"","pos":38,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"950692","input":"","pos":36,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a85a34","input":"","pos":12,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a96cce","input":"","pos":34,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"dbf05b","input":"a = 1\nb = 2\nif a > b:\n    print(\"a is less than b\")","pos":45,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f1e2f9","input":"","pos":50,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f24073","input":"","pos":16,"type":"cell"}
+{"cell_type":"code","exec_count":1,"id":"7f249b","input":"a = 1\nb = 2\nc = 3\na","output":{"0":{"data":{"text/plain":"1"},"exec_count":1,"output_type":"execute_result"}},"pos":4,"type":"cell"}
+{"cell_type":"code","exec_count":13,"id":"d2f655","input":"my_list = [1, 2, 3, 4, 5]","pos":20,"type":"cell"}
+{"cell_type":"code","exec_count":14,"id":"07ce0d","input":"my_list[2]","output":{"0":{"data":{"text/plain":"3"},"exec_count":14,"output_type":"execute_result"}},"pos":22,"type":"cell"}
+{"cell_type":"code","exec_count":16,"id":"ac4e61","input":"my_tup = (\"a\", \"b\", \"c\", \"d\")","pos":25,"type":"cell"}
+{"cell_type":"code","exec_count":17,"id":"5e9ec8","input":"my_tup[2]","output":{"0":{"data":{"text/plain":"'c'"},"exec_count":17,"output_type":"execute_result"}},"pos":27,"type":"cell"}
+{"cell_type":"code","exec_count":18,"id":"471b01","input":"my_dictionary = {\n    \"Name\": \"Cameron\",\n    \"Hobbies\": [\"Running\", \"Teaching\", \"Chess\"],\n    \"Age\": 23\n}","pos":29,"type":"cell"}
+{"cell_type":"code","exec_count":19,"id":"edf6cc","input":"my_dictionary[\"Name\"]","output":{"0":{"data":{"text/plain":"'Cameron'"},"exec_count":19,"output_type":"execute_result"}},"pos":31,"type":"cell"}
+{"cell_type":"code","exec_count":21,"id":"b2f279","input":"for number in my_list:\n  print(number)","output":{"0":{"name":"stdout","output_type":"stream","text":"1\n2\n3\n4\n5\n"}},"pos":41,"type":"cell"}
+{"cell_type":"code","exec_count":24,"id":"bd10f8","input":"for i in range(5):\n    print('i = ', i)","output":{"0":{"name":"stdout","output_type":"stream","text":"i =  0\ni =  1\ni =  2\ni =  3\ni =  4\n"}},"pos":43,"type":"cell"}
+{"cell_type":"code","exec_count":25,"id":"0b3b41","input":"a = 1\nb = 2\nif a > b:\n    print(\"a is less than b\")\nelse:\n    print(\"b is less than a\")","output":{"0":{"name":"stdout","output_type":"stream","text":"b is less than a\n"}},"pos":47,"type":"cell"}
+{"cell_type":"code","exec_count":27,"id":"5058ea","input":"a = 1\nb = 1\nif a > b:\n    print(\"a is less than b\")\nelif a == b:\n    print(\"a equals b\")\nelse:\n    print(\"b is less than a\")","output":{"0":{"name":"stdout","output_type":"stream","text":"a equals b\n"}},"pos":49,"type":"cell"}
+{"cell_type":"code","exec_count":4,"id":"f7d52e","input":"f = b * c\nf","output":{"0":{"data":{"text/plain":"6"},"exec_count":4,"output_type":"execute_result"}},"pos":8,"type":"cell"}
+{"cell_type":"code","exec_count":5,"id":"597e4c","input":"g = a / b\ng","output":{"0":{"data":{"text/plain":"0.5"},"exec_count":5,"output_type":"execute_result"}},"pos":9,"type":"cell"}
+{"cell_type":"code","exec_count":6,"id":"94f4d9","input":"d = a + b\nd","output":{"0":{"data":{"text/plain":"3"},"exec_count":6,"output_type":"execute_result"}},"pos":6,"type":"cell"}
+{"cell_type":"code","exec_count":7,"id":"2feb4f","input":"e = c - a\ne","output":{"0":{"data":{"text/plain":"2"},"exec_count":7,"output_type":"execute_result"}},"pos":7,"type":"cell"}
+{"cell_type":"markdown","id":"00514d","input":"First up, lists. you can create a list with the following code.","pos":19,"type":"cell"}
+{"cell_type":"markdown","id":"1ab16d","input":"## Variables","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"26a2ab","input":"Now for if statements. The if-elif-else statement is used to conditionally execute a statement or a block of statements. Conditions can be true or false, execute one thing when the condition is true, something else when the condition is false.","pos":44,"type":"cell"}
+{"cell_type":"markdown","id":"2aa98b","input":"We will learn more about for loops in the next lesson. For now, we will use them to go through a list and print out each element.","pos":40,"type":"cell"}
+{"cell_type":"markdown","id":"2e53ff","input":"Create a few string variables here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":11,"type":"cell"}
+{"cell_type":"markdown","id":"370b34","input":"Next, we will create a tuple. A tuple works similarly to a list but you can't edit values stored in a tuple once it has been created.","pos":24,"type":"cell"}
+{"cell_type":"markdown","id":"38dc01","input":"Finally, we have dictionaries.","pos":28,"type":"cell"}
+{"cell_type":"markdown","id":"3a27b8","input":"### Lists, Dictionaries, and Tuples","pos":17,"type":"cell"}
+{"cell_type":"markdown","id":"3d4553","input":"Below, create a list of your favorite colors. Then figure out how to add a new element to the end of the list. Finally change a value in the list to something new.","pos":33,"type":"cell"}
+{"cell_type":"markdown","id":"43d358","input":"To access a specific item from the list, you would do the following.","pos":21,"type":"cell"}
+{"cell_type":"markdown","id":"4a3a00","input":"Lists work similarly to the variables we created above but store multiple values. We'll cover the three types metioned above then ask the students to try and create their own versions of them.","pos":18,"type":"cell"}
+{"cell_type":"markdown","id":"4be682","input":"### For loops and if statements ","pos":39,"type":"cell"}
+{"cell_type":"markdown","id":"59a396","input":"Next, we will look at how to make a list run a specific number of times.","pos":42,"type":"cell"}
+{"cell_type":"markdown","id":"5edac4","input":"Create a few string boolean here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":15,"type":"cell"}
+{"cell_type":"markdown","id":"6aece2","input":"The goal of this notebook is to provide students with knowledge of the fundamentals of python. We will take a more interactive approach than most class room settings and ask the students to do some research on their own then bring their learnings back here to share with the class. ","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"6b285a","input":"There are tons of different types of variables we can make. For this next section, we will ask the students to go out and figure out how to create the following types of variable: strings, floats and booleans. Once you have created these variables, try the same operations we used above and see what they do.","pos":10,"type":"cell"}
+{"cell_type":"markdown","id":"6ceeb2","input":"Additionally, we can use elif statements to add additional conditions to the structure.","pos":48,"type":"cell"}
+{"cell_type":"markdown","id":"7820fa","input":"The first element in the list is at index 0, then the second element is at index 1 and so on.","pos":23,"type":"cell"}
+{"cell_type":"markdown","id":"8c1796","input":"Variables work by assigning a value to a specific word or string of characters. It can be done using the \"=\" sign. This assigns the string of characters on the left to be equal to whatever is on the right. We'll go ahead and try assigning a few variables in the next block.","pos":3,"type":"cell"}
+{"cell_type":"markdown","id":"9b6867","input":"Below, create a dictionary of your favorite dogs. Then figure out how to add a new value to the dictionary. Finally, figure out how to change a value in the dictionary.","pos":37,"type":"cell"}
+{"cell_type":"markdown","id":"aad8f0","input":"We can also perform basic algebra to these variables and save the output to a new variable","pos":5,"type":"cell"}
+{"cell_type":"markdown","id":"be992d","input":"Create a few float variables here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":13,"type":"cell"}
+{"cell_type":"markdown","id":"c3ccc3","input":"Now its your turn. We will have students create their own versions of these 3 data types with special challenges for each.","pos":32,"type":"cell"}
+{"cell_type":"markdown","id":"d44ab0","input":"# Python Basics","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"d75b30","input":"You can access the elements the same way as a list","pos":26,"type":"cell"}
+{"cell_type":"markdown","id":"dec972","input":"Below, create a tuple of your favorite dogs. Then figure out how to print out just the first letter of an element.","pos":35,"type":"cell"}
+{"cell_type":"markdown","id":"eccdb6","input":"We can add else statements to the above. An else statement is what will be run if the original statement is false.","pos":46,"type":"cell"}
+{"cell_type":"markdown","id":"f21ce6","input":"To access the values stored in a dictionary, you have to use the name of the \"key\" in the square brackets","pos":30,"type":"cell"}
+{"id":0,"time":1652821274378,"type":"user"}
+{"last_load":1652821274428,"type":"file"}
