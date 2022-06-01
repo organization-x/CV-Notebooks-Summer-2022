@@ -18,6 +18,6 @@ Once there, you can run the next bash script that sets up the ipykernels that se
 `source init_pykernels.sh`
 
 After that, create a new notebook and connect it to a kernel by clicking on the kernel tab and selecting the kernel that is called Python (cv_env)
-![Image of setting up kernel](kernel_setup.png?raw=true "How to assign a kernel to your notebook")
+<img src="kernel_setup.png" width="100" />
 
 If you cannot run cells right now, you might need to kickstart the notebook by running the "validate" button on top and waiting a minute for the backend/kernel to get setup. 
