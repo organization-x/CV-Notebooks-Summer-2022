@@ -26,6 +26,7 @@ dependencies:
   - six=1.16.0
   - sqlite=3.38.3
   - wheel=0.37.1
+  - tensorflow=2.4.1
   - pip:
     - charset-normalizer==2.0.12
     - cycler==0.11.0
