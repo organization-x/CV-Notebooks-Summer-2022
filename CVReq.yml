@@ -48,4 +48,5 @@ dependencies:
     - torchvision==0.12.0
     - typing-extensions==4.2.0
     - urllib3==1.26.9
+    - google-search-results==2.4.1
 prefix: C:\Users\aywhe\anaconda3\envs\CVReq
